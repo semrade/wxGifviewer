@@ -1,0 +1,10 @@
+'        # ---------- Add widget program settings'
+'        self.GifPath = None'
+'        # ---------- Add widget program settings'
+'        self.Show()'
+'        # ---------- Event handlers'
+'if __name__ == "__main__":'
+'    app = wx.App(False)'
+'    frame = <framename>()'
+'    app.MainLoop()'
+
