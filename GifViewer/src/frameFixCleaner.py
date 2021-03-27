@@ -70,9 +70,10 @@ def fixFrame(ProjectDirectory,filename):
     ptrFile.close()
     return 'CLEANING DONE!'
 
+dirname = os.path.dirname(__file__)
+ProjectDirectory = os.path.join(dirname,"..\\")
 
-
-ProjectDirectory = r"C:\Users\STarikUser\Documents\gif-viewer"
+#ProjectDirectory = r"C:\Users\STarikUser\Documents\gif-viewer"
 filename = "gifviewer"
 
 print('Cleaning file: %sBK.py ===> START CLEANING!' % filename)

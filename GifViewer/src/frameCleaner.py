@@ -23,8 +23,9 @@ def cleanFrame(prjDir,filename):
 	ptrFile.close()
 
 	return 'complete'
-
-prjDir = r"C:\Users\STarikUser\Documents\gif-viewer"
+dirname = os.path.dirname(__file__)
+prjDir = os.path.join(dirname,"..\\")
+#prjDir = r"C:\Users\STarikUser\Documents\gif-viewer"
 filename = "gifviewer"
 
 print('Cleaning descode fiel: %s' % filename +'.py')
